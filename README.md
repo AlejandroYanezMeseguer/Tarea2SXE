@@ -62,6 +62,10 @@ ip a			#Copiar para mostrar la ip
 ping 172.17.0.2       #Copiar para hacer ping al otro contenedor
                       #Cambiar la ip en caso de que sea diferente
 ```
+#### 6. Sal del terminal, ¿que ocurrió con el contenedor?
+‎ 
+##### Al salir de la terminal el contenedor se seguira ejecutando hasta que se detenga manualmente
+
 
 
 
