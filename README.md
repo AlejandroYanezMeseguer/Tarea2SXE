@@ -65,6 +65,13 @@ ping 172.17.0.2       #Copiar para hacer ping al otro contenedor
 #### 6. Sal del terminal, ¿que ocurrió con el contenedor?
 ‎ 
 ##### Al salir de la terminal el contenedor se seguira ejecutando hasta que se detenga manualmente
+#### 7. ¿Cuanta memoria en el disco duro ocupaste?
+‎ 
+##### Para comprobar el espacio que ocupan los contenedores anteriormente creados debemos utilizar el siguiente comando
+```
+sudo docker system df -v	   #Copiar para comprobar el espacio que ocupan lo contenedores
+```
+###### Los contenedores ocupan escasos bytes cada uno por lo que apenas se ha ocupado espacio
 
 
 
