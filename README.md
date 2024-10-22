@@ -49,6 +49,20 @@ ip a    #Copiar para mostrar la ip
 ```
 ping google.com     #Copiar para hacer ping a google
 ```
+#### 5. Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+‎ 
+##### En este apartado debemos crear un nuevo contenedor, para ello , en otra terminal utilizaremos los mismos comnados que antes para crearlo, iniciarlo y acceder a el, de este modo tendremos un contenedor en cada terminal
+```
+sudo docker container create -i -t --name dam_alp2 alpine	    #Copiar para crear el contenedor llamado dam_alp2
+sudo docker container start --attach -i dam_alp2 		    #Copiar para iniciar y acceder al contenedor dam_alp2
+```
+##### Para hacer el ping de uno a otro primero debemos comprobar la ip de el contenedor al que queremos hacer ping como hicimos anteriormente y a continiuacion hacer el ping a esa ip
+```
+ip a			#Copiar para mostrar la ip
+ping 172.17.0.2       #Copiar para hacer ping al otro contenedor
+                      #Cambiar la ip en caso de que sea diferente
+```
+
 
 
 
