@@ -72,6 +72,12 @@ ping 172.17.0.2       #Copiar para hacer ping al otro contenedor
 sudo docker system df -v	   #Copiar para comprobar el espacio que ocupan lo contenedores
 ```
 ###### Los contenedores ocupan escasos bytes cada uno por lo que apenas se ha ocupado espacio
+#### 8. ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
+‎ 
+##### Para ver la ram que ocupan los contenedores docekr tiene el siguiente comando
+```
+sudo docker stats 		#Copiar para comprobar el uso de recursos de cada contenedor
+```
 
 
 
