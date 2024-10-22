@@ -39,6 +39,16 @@ sudo docker container create -i -t --name dam_alp1 alpine     #Copiar para crear
 sudo docker container start --attach -i dam_alp1    #Copiar para iniciar y acceder al contenedot dam_alp1
                                                     #Cambiar "dam_alp1" en caso de acceder y iniciar otro contenedor
 ```
+#### 4. Comprueba que ip tiene y si puedes hacer un ping a google.com
+‎ 
+##### Para comprobar la ip debemos acceder a el como anteriormente y utilizar el siguiente comando
+```
+ip a    #Copiar para mostrar la ip
+```
+##### A continuacion debemos hacer un ping a google, para ello utilizaremos el siguoiente comando
+```
+ping google.com     #Copiar para hacer ping a google
+```
 
 
 
