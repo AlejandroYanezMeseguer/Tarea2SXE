@@ -27,6 +27,18 @@ sudo docker ps -a     #Copiar para comprobar todos los contenedores creados y ve
 ```
 sudo docker container start <nombre>     #Copiar para iniciar un contenedor de docker
 ```
+#### 3. Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
+‎ 
+##### Para crear un contenedor el nombre dam_alp1 debemos utilizar el siguiente comando
+```
+sudo docker container create -i -t --name dam_alp1 alpine     #Copiar para crear un contenedor llamado dam_alp1
+                                                              #Cambiar "dam_alp1" e caso de querer un contedor con otro nombre
+```
+##### Como se indico anteriormente los contenedores se crean detenidos, pero esta vez el comando para iniciarlo sera un poco diferente ya que lo encenderemos y accederemos a el con el siguiente comando
+```
+sudo docker container start --attach -i dam_alp1    #Copiar para iniciar y acceder al contenedot dam_alp1
+                                                    #Cambiar "dam_alp1" en caso de acceder y iniciar otro contenedor
+```
 
 
 
